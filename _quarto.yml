@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: 6300-Project
+
+website:
+  title: "David Corcoran"
+  back-to-top-navigation: true
+  navbar:
+    title: David Corcoran
+    left:
+      - text: Homepage
+        href: https://corcoran.georgetown.domains/Homepage/index.html
+      - text: Introduction
+        href: index.qmd
+      - text: Report
+        href: report.qmd
+        
+    right:
+      - icon: github
+        href: https://github.com/dcorcoran7
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/david-corcoran-70677917a/
+        aria-label: LinkedIn
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-location: left
+    toc-title: Table of Contents
+
+
+
