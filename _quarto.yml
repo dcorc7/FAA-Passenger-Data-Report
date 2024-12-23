@@ -29,6 +29,7 @@ format:
     toc: true
     toc-location: left
     toc-title: Table of Contents
+    css: ./stylesheets/styles.css
 
 
 
