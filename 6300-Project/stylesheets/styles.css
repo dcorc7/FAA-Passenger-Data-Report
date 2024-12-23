@@ -1,0 +1,7 @@
+@media (min-width: 769px) {
+    .content {
+      width: 130%;
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+  }

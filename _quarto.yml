@@ -4,9 +4,11 @@ project:
 
 website:
   title: "David Corcoran"
+  favicon: "assets/gu-logo.png"
   back-to-top-navigation: true
   navbar:
     title: David Corcoran
+    search: true
     left:
       - text: Homepage
         href: https://corcoran.georgetown.domains/Homepage/index.html
