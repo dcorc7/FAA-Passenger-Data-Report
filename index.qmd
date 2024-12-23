@@ -4,10 +4,19 @@ title: Analysis of FAA Passenger Flight Data in April 2022
 
 # Overview
 
+The Bureau of Transportation Statistics (BTS), a division of the Department of Transportation (DOT), collects, analyzes, and publishes comprehensive data on U.S. transportation. Covering topics like commercial aviation, multimodal freight, energy consumption, and safety, BTS provides critical insights into American transport. This report focuses on flight data from April 2022, sourced from the "BTS Reporting Carrier On-Time Performance (1987-Present)" database. The dataset, contributed by certified air carriers representing at least 1% of domestic scheduled passenger revenues, includes key metrics such as carrier codes, flight numbers, airport codes, scheduled and actual times, delays, cancellations, and their reasons.
 
+The analysis centers on FAA flight data for April 2022, examining departure and arrival delays by airline and airport, flight distribution within the month, and cancellation trends. SQL was used to query the database, and visualizations were crafted using ggplot2 in R. This approach provides a detailed exploration of flight performance and operational challenges during April 2022.
 
 # Methods
 
-- **Standard Query Language:** 
+- **Standard Query Language:** A language used to manage and analyze data stored in relational databases. It enables users to retrieve, filter, aggregate, and manipulate large datasets efficiently through structured queries. SQL is particularly valuable in data-driven projects as it allows for precise extraction and transformation of information tailored to specific analytical needs.
 
-- **R Programming Language:** 
+- **R Programming Language:** A programming language widely used for statistical computing, data analysis, and visualization. With an extensive library of packages, R allows users to clean, manipulate, and analyze data, as well as create high-quality visualizations to communicate insights effectively. Its emphasis on data exploration and statistical modeling makes it a powerful tool for analytical projects. This project specifically used the ggplot2 package, a popular tool for creating customizable and publication-ready graphics, to visualize trends in departure and arrival delays, flight distribution, and cancellation reasons.
+
+
+# Summary of Results
+
+This analysis of FAA flight data from April 2022 revealed critical insights into airline performance and operational patterns. Maximum departure delays varied significantly, with Horizon Air experiencing the smallest maximum delay (6.06 hours) and SkyWest Airlines the largest (39.43 hours). Lea County Regional Airport in Hobbs, NM, had the highest average departure delay (7.41 hours), while PSA Airlines faced the largest average departure delay (18.83 hours) at Southwest Florida International Airport. Early departures were less significant, with delays presenting a far greater challenge. Cancellations were primarily caused by carrier-related issues (6272 cancellations) and weather (4841 cancellations), with international airports being disproportionately affected.
+
+Temporal analysis uncovered a distinct weekly travel cycle, with peak demand occurring on Thursday through Saturday and lower activity early in the week. These patterns emphasized the dynamic nature of air travel, driven by passenger availability and work schedules. The findings provided actionable insights for airlines and airports to optimize operations, address the causes of delays and cancellations, and improve scheduling to align with travel demand.
