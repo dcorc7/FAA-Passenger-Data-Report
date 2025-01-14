@@ -1,9 +1,5 @@
 ---
 title: Report
-
-format:
-  html:
-    toc: false
 ---
 
 
